@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>所有学科信息</title>
+    <style>
+        .blue{
+            color: blueviolet;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body bgcolor="white">
+    <h1 align="left" class="blue">我是标题一，居左展示</h1>
+    <p align="left" class="blue">我是段落，上面标题通过属性align设置了left，是标题居左展示。</p>
+    <h2 align="center" style="color: burlywood;font-size: 25px;">我是标题二，居中显示</h2>
+    <p align="right" style="color: chartreuse;font-size: 20px;">我是段落，标题设置居中展示，我是居右展示</p>
+    <h3 align="left"><font color="yellow" size="10">我是标题三，居左展示</font></h3>
+    <p align="center"><font color="black" size="5">我是段落，标题设置居左展示，我是居中展示</font></p>
+    <!-- <hr>
+    {% for subject in subjects %}
+    <div>
+        <h3>
+            <a href="/teachers/?sno={{ subject.no }}">{{ subject.name }}</a>
+            {% if subject.is_hot %}
+            <img src="/static/images/hot.png" width="32" alt="">
+            {% endif %}
+        </h3>
+        <p>{{ subject.intro }}</p>
+    </div>
+    {% endfor %} -->
+</body>
+</html>
